@@ -216,13 +216,25 @@ background-color: #1e2b38;
 }
 
 /* ----- ----- MEDIA QUERIES ----- ----- */
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 908px) {
 header .menu {
 text-align: center; }
 
-.main .trabajos .contenedor-trabajos .trabajo {
-width: 46%; } }
-@media screen and (max-width: 500px) {
+
+}  
+  
+    @media screen and (min-width: 908px) {
+        .main .trabajos .contenedor-trabajos .trabajo {
+            width: 15%; } }
+           .tabla1{
+                width: 10%;
+                margin-left: 10%;
+                display: flex;
+                position: relative;
+                z-index: 0;
+                
+            }
+@media screen and (min-width: 908px) {
 header .contenedor-texto .texto .nombre {
 font-size: 35px; }
 header .contenedor-texto .texto .profesion {
