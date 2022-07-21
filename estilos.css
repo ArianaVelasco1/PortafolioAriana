@@ -39,16 +39,13 @@ width: 100%;
     justify-content: space-around;
 }
 
-img{
+ img{
     display:block;
     height: 450px;
     object-fit:cover;
     width: auto;
    
-  
-   
-    
-}
+} 
 
 .textos{
     width:50%;
